@@ -3,7 +3,7 @@
   -- Do NOT remove the leading `#` character.
   -->
 
-# Code, train, eat. repeat
+# Code, train, eat. Repeat
 
 
 <!--
