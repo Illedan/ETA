@@ -3,7 +3,7 @@
   -- Do NOT remove the leading `#` character.
   -->
 
-# Code, train, eat-> repeat
+# Code, train, eat. repeat
 
 
 <!--
@@ -20,9 +20,15 @@
   -->
 
 [About](pages/about.md)
-[Code](pages/cocos2d.md)
-[Training](pages/training.md)
+
+[Code]()
+
+  * [Cocos2d](pages/cocos2d.md)
+  * [Algorithms](pages/algorithms.md)
+  
+[Train](pages/training.md)
 [Eat](pages/food.md)
+
 
 
 <!-- A more complex navigation example: ----------------------------------------
