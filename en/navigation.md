@@ -24,10 +24,10 @@
 [Code]()
 
   * [Cocos2d](pages/cocos2d.md)
-  * [Algorithms](pages/algorithms.md)
-  
-[Train](pages/training.md)
-[Eat](pages/food.md)
+  <!--* [Algorithms](pages/algorithms.md)-->
+
+<!--[Train](pages/training.md)
+[Eat](pages/food.md)-->
 
 
 
