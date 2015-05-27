@@ -3,7 +3,7 @@
   -- Do NOT remove the leading `#` character.
   -->
 
-# Your wiki name
+# Code, train, eat-> repeat
 
 
 <!--
@@ -20,7 +20,10 @@
   -->
 
 [About](pages/about.md)
-[Download](pages/download.md)
+[Code](pages/cocos2d.md)
+[Training](pages/training.md)
+[Eat](pages/food.md)
+
 
 <!-- A more complex navigation example: ----------------------------------------
 
