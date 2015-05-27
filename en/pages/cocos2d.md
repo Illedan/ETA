@@ -2,7 +2,7 @@
 
 ## Seal game
 
-This is going to be a 2d platform game. The goal is to avoid balls and ice bears in order to escape from a circus. It`s a game with no end,
+This is going to be a 2d platform game. The goal is to avoid balls and ice bears in order to escape from a circus. It`s a game with no end. Pictures are comming.
 
 ## Menu
 
