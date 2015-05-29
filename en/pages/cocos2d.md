@@ -24,9 +24,6 @@ Add images to your Content folder and add code to load the images as Selected- a
 ShopButton = new CCMenuItemImage ();
 ShopButton.NormalImage = new CCSprite ("circusshop");
 ShopButton.SelectedImage = new CCSprite ("clickedcircusshop");
-ShopButton.Scale = 0.3f;
-ShopButton.PositionX = 100;
-ShopButton.PositionY = 300;
 ```
 
 Next is the handling of clicks:
@@ -35,7 +32,35 @@ ShopButton.Target = OpenShop;
 //----
 private void OpenShop(Object c){
   var transition = new CCTransitionScene (0.1f, new ShopScene (Window));
-  var transitionToGame = new CCTransitionRotoZoom (0.7f, new ShopScene (Window));
   Window.DefaultDirector.ReplaceScene (transition);
 }
+```
+
+### Positioning
+
+Having buttons is nice and smooth, but placing them... Sometimes the tweaking takes forever. To make it easier I`m using Photoshop.
+
+First off, I have to make my images the same scale making their photoshop size correspond with the size ingame.
+My following action is to place them on the background using photoshop for the tweaking part. As an example:
+
+<img align="middle" src="../pages/uploads/images/circusscetch.jpg" alt="Drawing" style="width: 200px;"/>
+
+Clicking the shop sprite in photosop and pressing cmd+T will show me the x and y coordinates of my image center which could be scaled down to match the game`s coordinates.
+
+What`s missing? The definition of x:0, y:0.
+This is different for photoshop and Xamarin. Creating a ``CCMenu`` and place your buttons on this will fix it.
+
+```csharp
+var menu = new CCMenu(new CCMenuItem[]{StartButton, SettingsButton, ShopButton});
+menu.PositionY = 337;
+menu.PositionX = 0;
+startLayer.AddChild (menu);
+```
+
+Set X and Y of your buttons and youre done!
+
+```csharp
+ShopButton.Scale = 0.3f;
+ShopButton.PositionX = 100;
+ShopButton.PositionY = 120;
 ```
