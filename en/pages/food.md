@@ -1,11 +1,5 @@
-# Food
+# Mat
+This is going to be a norwegian food page =)
+Feel free to google translate..
 
-## Section 1
----------
-abc
-## Section 1
----------
-abc
-## Section 1
----------
-abc
+## 

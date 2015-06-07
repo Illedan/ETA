@@ -64,3 +64,7 @@ ShopButton.Scale = 0.3f;
 ShopButton.PositionX = 100;
 ShopButton.PositionY = 120;
 ```
+
+## Shop view
+
+Now I´m going to learn how to make a shop like page with multiple scrollviews. First off I want to make scrolling horizontaly possible. Then I would like a vertical scroll for each group if there are more than 1 item.
