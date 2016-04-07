@@ -23,8 +23,10 @@
 
 [Code]()
 
-  * [Cocos2d](pages/cocos2d.md)
-  <!--* [Algorithms](pages/algorithms.md)-->
+  * [Cocossharp - First try](pages/cocos2d.md)
+  * [Algorithms](pages/algorithms.md)
+  * [Cocossharp - noobguide](pages/xamarinnoob.md)
+<!-- http://illedan.github.io/ETA/en/#!index.md -->
 
 <!--[Train](pages/training.md)
 [Eat](pages/food.md)-->
